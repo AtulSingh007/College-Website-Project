@@ -1,0 +1,47 @@
+<web-app>
+<servlet>
+  <servlet-name>Index</servlet-name>
+  <servlet-class>Index</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>Index</servlet-name>
+<url-pattern>/Index</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>faculty_reg</servlet-name>
+  <servlet-class>faculty_reg</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>faculty_reg</servlet-name>
+<url-pattern>/faculty_reg</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>FacultyLogin</servlet-name>
+  <servlet-class>FacultyLogin</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>FacultyLogin</servlet-name>
+<url-pattern>/FacultyLogin</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+  <servlet-name>student_reg</servlet-name>
+  <servlet-class>student_reg</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>student_reg</servlet-name>
+<url-pattern>/student_reg</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>StudentLogin</servlet-name>
+  <servlet-class>StudentLogin</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>StudentLogin</servlet-name>
+<url-pattern>/StudentLogin</url-pattern>
+</servlet-mapping>
+</web-app>

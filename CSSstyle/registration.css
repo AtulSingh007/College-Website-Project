@@ -1,0 +1,318 @@
+   
+
+.a1
+      {
+        width:500px;
+        height:590px;
+        background-color:#222930;
+		border:15px solid #4EB1BA;
+		padding: 5px 16px 5px;  
+        margin-left:90px;
+        padding-left:30px;
+        padding-top:10px;
+        border-radius:5px;
+        font-family:cursive;
+        font-size:16px;
+        font-weight:border;
+        margin-top: 10px;
+		box-shadow: 3px 5px 5px BLACK;   
+         
+      }    
+
+.student-border1 input[type="file"]
+        {
+       
+        position:absolute;
+        top: 315px;
+        left:465px;
+        border: 2px solid #4EB1BA;
+        padding-top: 100px;
+        margin: auto;
+        width:120px;
+        height:120px;
+        box-shadow: 3px 5px 5px BLACK;    
+        
+        } 
+        
+         
+      .student-border1 input[type="text"]
+       {
+        width:150px;
+        height:22px;
+        background-color:white; 
+        border-radius:5px;
+        padding-left:12px; 
+        box-shadow: 3px 5px 5px BLACK;   
+           
+       }
+       
+        .student-border1 input[type="date"]
+        {
+        width:150px;
+        height:22px; 
+        background-color:white; 
+        border-radius:5px;
+        padding-left:12px;
+        font-size:14.5px;   
+        font-family:inherit;
+        box-shadow: 3px 5px 5px BLACK; 
+            
+        }
+        
+        .student-border1 select
+        {
+        
+          width:180px;
+        height:22px;
+        background-color:white; 
+        border-radius:5px;
+        padding:1px
+        padding-left:2px;
+        box-shadow: 3px 5px 5px BLACK;    
+        
+        }
+      
+        .student-border1 select[option]
+        {
+        width:170px;
+        height:22px;
+         border-size:5px;   
+        background-color:red;
+        padding-left:1px;
+        padding-top:2px;
+        
+        }
+        
+        .student-border1 input[type="password"]
+       {
+        width:150px;
+        height:22px;
+        background-color:white; 
+        border-radius:5px;
+        padding-left:12px; 
+        box-shadow: 3px 5px 5px BLACK;   
+           
+       }
+             
+        .student-border1 button
+        {
+			border: none;
+            width:80px;
+            min-height: 25px;
+            /*border-radius:5px;*/
+            font-weight:bolder;
+            margin-left:140px;
+            border:1px solid #222930;
+            background-color:#222930;
+			color:#4EB1BE;
+        }
+        
+        .student-border1 button:hover{
+            
+            background-color:#222930;
+			box-shadow: 3px 5px 10px BLACK;
+			color: white;
+        }
+        
+        .student-border1 input[type="reset"]
+        {
+			border: none;
+            width:80px;
+            min-height: 25px;
+            /*border-radius:5px;*/
+            font-weight:bolder;
+            margin-left:0px;
+            border:1px solid #222930;
+            background-color:#222930;            
+			color:#4EB1BE;
+}
+
+        
+        
+        .student-border1 input[type="reset"]:hover{
+            
+            background-color:#222930;
+			box-shadow: 3px 5px 10px BLACK;
+			color: white;
+        }
+        
+        .student-border1 input[type="radio"]
+        {
+            box-shadow: 3px 5px 5px BLACK;
+            
+        }
+        
+        
+        .student-border2 input[type="radio"]
+        {
+            box-shadow: 3px 5px 5px BLACK;
+            
+        }
+        
+        .student-border2 input[type="file"]
+        {
+       
+        position:absolute;
+        top: 315px;
+        left:1100px;
+        border: 2px solid #4EB1BA;
+        padding-top: 100px;
+        margin: auto;
+        width:120px;
+        height:120px;
+        box-shadow: 3px 5px 5px BLACK;    
+        
+        } 
+        
+      .b1
+      {
+        width:500px;
+        height:595px;
+        background-color: #222930;
+		border:15px solid #4EB1BA;  
+        margin-left:725px;
+        padding-left:30px;
+        padding-top:10px;
+        border-radius:5px;
+        font-family:cursive;
+        font-size:16px;
+        font-weight:border;
+        font-left:20px;
+        margin-top: -635px;
+        box-shadow: 3px 5px 5px BLACK;  
+      }      
+      .student-border2 input[type="text"]
+       {
+        width:150px;
+        height:22px;
+        background-color:white; 
+        border-radius:5px;
+        padding-left:12px; 
+        box-shadow: 3px 5px 5px BLACK;   
+           
+       }
+       
+        .student-border2 input[type="date"]
+        {
+        width:150px;
+        height:22px; 
+        background-color:white; 
+        border-radius:5px;
+        padding-left:12px;
+        font-size:14.5px;   
+        font-family:inherit;
+        box-shadow: 3px 5px 5px BLACK;    
+            
+        }
+        
+        .student-border2 select
+        {
+          width:180px;
+        height:22px;
+        background-color:white; 
+        border-radius:5px;
+        padding:1px
+        padding-left:2px; 
+        box-shadow: 3px 5px 5px BLACK;    
+            
+        }
+      
+        .student-border2 select[option]
+        {
+        width:170px;
+        height:22px;
+         border-size:5px;   
+        background-color:red;
+        padding-left:1px;
+        padding-top:2px;
+        box-shadow: 3px 5px 5px BLACK;    
+            
+        }
+        
+        .student-border2 input[type="password"]
+       {
+        width:150px;
+        height:22px;
+        background-color:white; 
+        border-radius:5px;
+        padding-left:12px; 
+        box-shadow: 3px 5px 5px BLACK;   
+           
+       }
+             
+        .student-border2 button
+        {
+			border: none;
+            width:80px;
+            min-height: 25px;
+            /*border-radius:5px;*/
+            font-weight:bolder;
+            margin-left:140px;
+			color:#4EB1BE;
+            border:1px solid #222930;
+            background-color:#222930;
+        }
+        
+        .student-border2 button:hover{
+            
+            background-color:#222930;
+			box-shadow: 3px 5px 10px BLACK;
+			color: white;
+        }
+        
+        .student-border2 input[type="reset"]
+        {
+			border: none;
+            width:80px;
+            min-height: 25px;
+            /*border-radius:5px;*/
+            font-weight:bolder;
+            margin-left:0px;
+			color:#4EB1BE;
+            border:1px solid #222930;
+            background-color:#222930;
+        }
+        
+        .student-border2 input[type="reset"]:hover{
+            
+            background-color:#222930;
+			box-shadow: 3px 5px 10px BLACK;
+			color: white;
+        }
+        
+         i{
+			
+			 
+			color:white; 
+           }
+        
+        h2{
+            
+            font-size:20px;
+            text-align: center;
+            padding: 0PX,0px,0px,0px;
+            box-shadow: 3px 3px 5px BLACK;
+            margin-top:20PX;
+            background-color:#222930;
+            BORDER:1PX SOLID #222930;
+            border-radius: 5px;
+            width:350px;
+			font-weight:lighter;
+			color:white;
+        }
+        
+        h3{
+            
+            font-size:20px;
+            text-align: center;
+            padding: 0PX;
+            box-shadow: 3px 3px 5px BLACK;
+            background-color:#222930;
+            BORDER:1PX SOLID #222930;
+            border-radius: 5px;
+            width:350px;
+			font-weight:lighter;
+			color:white;
+        }
+        
+        

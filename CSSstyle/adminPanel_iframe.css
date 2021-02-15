@@ -1,0 +1,29 @@
+body{
+	background-color:#222930;
+	
+}
+
+        
+        .frame
+        {
+            width:980px;
+            height:400px;
+            margin-left:30px;
+           /*margin-top: -15px;*/
+			/*box-shadow:0px 0px 10p0x black;*/
+				/*border:1px SOLID white;*/
+			
+        }
+		
+        iframe
+        {
+			/*box-shadow:0px 0px 10px black;*/
+				/*border:1px SOLID red;*/
+            width:980px;
+            height:400px;
+            margin-left: 4px;
+            /*margin-top: 0px;*/
+			border: none;
+			display: cover;
+		            
+        }

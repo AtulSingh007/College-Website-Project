@@ -1,0 +1,69 @@
+.border-sign-up-pop-up
+{
+background-color:#222930;
+border:5px solid #4EB1BE;
+border-radius:5px;
+width:500px;
+height:200px;
+}
+h1 
+{
+color:white;
+margin-left:20px;
+}
+.I 
+{
+color:white;
+font-size:20px;
+margin-left:150px;
+}
+home
+{
+border:none;
+background-color:#222930;
+color:white;
+font-size:15px;
+margin-left:-150px;
+/*border:1px solid white;*/	
+}
+
+.button1
+{
+border:none;
+background-color:#222930;
+color:#4EB1BE;
+font-size:15px;
+margin-left:80px;
+margin-top: 20px;	
+width:100px;
+padding-left:7px;
+font-weight:bold;
+outline: none;	
+}
+
+.button1:hover
+{
+color: white;
+box-shadow:3px 5px 10px black;
+cursor:pointer;	
+}
+
+.button2
+{
+border:none;
+background-color:#222930;
+color:#4EB1BE;
+font-size:15px;
+margin-left:50px;
+width:160px;
+padding-right:7px;
+font-weight:bold;
+outline: none;	
+}
+	
+	.button2:hover
+{
+color: white;
+box-shadow:3px 5px 10px black;
+cursor:pointer;
+}
