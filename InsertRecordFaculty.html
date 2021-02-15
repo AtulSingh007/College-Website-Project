@@ -1,0 +1,40 @@
+<html>
+<body> 
+<center><h3>New Faculty Registration</h3></center>
+      <form name="f1" action="Faculty_reg.jsp" onSubmit="return valid() ;"><font>
+          
+          <!---Faculty  Name---->
+       
+		  <i>Faculty Name:</i><br> <input type="text" placeholder="First Name" name="fname" required>
+       <input type="text"  placeholder="Last Name" name="lname" required>
+        <i>Gender :</i>  <input type="radio" name="gender" value="male" required> <i>Male</i> 
+              <input type="radio" name="gender" value="male" required> <i>Female</i><br><br>
+      
+        <i>Father's Name:</i>
+        <br> <input type="text" placeholder="First Name" name="ffname" required>
+      <input type="text" placeholder="Last Name" name="flname" required><br><br>
+                
+          <i>D.O.B</i> &nbsp<input type="date" value="month" name="date" required>&nbsp;&nbsp;&nbsp;&nbsp;
+          <i>Phone Number : </i><input type="text" name="phone" placeholder="Phone No." required><font id="i1"></font>&nbsp;&nbsp;&nbsp;
+		  <i>Department : </i>   <select name="Dep" required>
+           <option value="text">-----Please Select-----</option>
+           <option value="CSE">Computer Science & Engineering (CSE)</option>
+            <option value="IT">Information Technology (IT)</option>
+            <option value="IT">Both Department</option>
+          </select><br><br>
+
+        <!---Passwod--->
+          <i>Password :</i>&nbsp&nbsp<input type="password" name="pwd" placeholder="Password" required>&nbsp;<font id="i4"></font>&nbsp;&nbsp;&nbsp;
+        <!---- Re-passwoed--->  
+          <i>Re-Password :</i>&nbsp&nbsp<input type="password" name="rpwd" placeholder="Re-Password" required>&nbsp;<font id="i5"></font>&nbsp;&nbsp;&nbsp;
+          <i>Email Id :</i>&nbsp&nbsp<input type="Text" name="mail" placeholder="Email-Id" required>&nbsp;<font id="i6"></font><br><br>
+          
+                
+          <!---Submit Button--->
+          <input type="Submit" value="Submit">
+          
+          <!---Reset Button--->
+          <input type="Reset" value="Reset">
+          
+     </font></form> 
+</body></html>

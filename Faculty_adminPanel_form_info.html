@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <style>
+						
+         .main_info_faculty_form_info
+            {
+			
+			background-color:#222930;
+			 /*background-color:black;*/	
+            width:970px;
+            height:290px;
+			margin-left:-6px;	
+            }
+			
+			form
+			{
+				/*border:1px solid red;*/
+				
+			}
+			b{
+				font-size:20px;
+				color:slategrey;
+				text-shadow:0px 0px 10px black;
+			}		
+			input[type="text"]
+       {
+        width:22%;
+        background-color:#222930; 
+		padding:8px;
+		border:none;   
+        border-bottom:1px solid #4EB1BE;
+        padding-left:12px; 
+		margin-left:2px;   
+        outline-color: white;
+		color:white;   
+		 font-weight: bolder;  
+           
+       }
+			input[type="date"]
+       {
+        width:15%;
+        background-color:#222930; 
+		padding:8px;
+		border:none;   
+        border-bottom:1px solid #4EB1BE;
+        padding-left:12px; 
+		margin-left:2px;   
+        outline-color: white;
+		color:white;   
+		  font-weight: bolder;  
+           
+       }
+		
+			select
+        {
+        width:16%;
+        background-color:#222930; 
+		padding:8px;
+		border:none;   
+        border-bottom:1px solid #4EB1BE;
+        padding-left:12px; 
+		margin-left:2px;   
+        outline-color: white;
+		color:white; 
+		font-weight: bolder; 	
+           
+        
+        }
+			
+		input[type="password"]
+       {
+        width:16%;
+        background-color:#222930; 
+		padding:8px;
+		border:none;   
+        border-bottom:1px solid #4EB1BE;
+        padding-left:12px;   
+		margin-left:2px;   
+        outline-color: white;
+		color:white;   
+         font-weight: bolder;   
+       }
+			
+		input[type="file"]
+        {
+       
+        position:absolute;
+        top: 30px;
+        left:795px;
+        border: 2px solid #4EB1BA;
+        padding-top: 100px;
+        margin: auto;
+        width:120px;
+        height:120px;
+        box-shadow: 3px 5px 5px BLACK;    
+        font-weight: bolder; 
+        }	
+			
+		input[type="submit"]
+			{
+	     
+			border: none;
+            width:80px;
+            min-height: 25px;
+            /*border-radius:5px;*/
+            font-weight:bolder;
+			margin-bottom:-150px;	
+            margin-left:740px;
+			color:#4EB1BE;
+            border:1px solid #222930;
+            background-color:#222930;
+            font-weight: bolder; 
+			}
+		
+			input[type="submit"]:hover{
+            outline:none;
+            background-color:#222930;
+			box-shadow: 3px 5px 10px BLACK;
+			color: white;
+			font-weight: bolder; 	
+        }
+		
+			input[type="reset"]
+        {
+			outline:none;
+			border: none;
+            width:80px;
+            min-height: 25px;
+            /*border-radius:5px;*/
+            font-weight:bolder;
+            margin-left:0px;
+			color:#4EB1BE;
+            border:1px solid #222930;
+            background-color:#222930;
+			font-weight: bolder; 
+        }
+			
+			input[type="reset"]:hover{
+            
+			
+            background-color:#222930;
+			box-shadow: 3px 5px 10px BLACK;
+			color: white;
+        }
+			
+			
+			
+	       </style>
+    </head>
+ <body>
+	    <div class="main_info_faculty_form_info">
+			<form name="f1">    
+		  <b>Student Name :</b><input class="fname" type="text" placeholder="Name" name="fname" required>
+       &nbsp;
+			<b>Father's Name :</b><input class="ffname" type="text" placeholder="Name" name="fname" required>
+      <br><br><br>	
+      <b>Gender :</b>  <input type="radio" name="gender" value="male" required> <b>Male</b> 
+		  <input type="radio" name="gender" value="male" required> <b>Female</b>&nbsp;&nbsp;&nbsp;&nbsp;       
+        
+        
+      <b>D.O.B : </b> &nbsp<input type="date" value="month" name="date" required><br><br>
+				 <!--- image---->
+      <input type="file" value="image">
+      <br>
+      
+       <b>My Year :</b>&nbsp&nbsp<input type="text" placeholder="Year" name="year" required>&nbsp;&nbsp;&nbsp;&nbsp;
+
+		<b>Department : </b>   <select name="Dep" required>
+           <option value="text">-----Please Select-----</option>
+           <option value="CSE">Computer Science & Engineering (CSE)</option>
+            <option value="IT">Information Technology (IT)</option>
+            <option value="IT">Both Department</option>
+          </select><br><br><br><br>
+				
+          <b>Phone Number : </b><input type="text" name="phone" placeholder="Phone No." required><font id="i1">&nbsp;&nbsp;
+			<b>Email : </b><input type="text" name="phone" placeholder="Email" required><font id="i1"></font><br></br><br><br>  
+          <b>Password :</b>&nbsp&nbsp<input type="password" name="pwd" placeholder="Password" required>&nbsp;<font id="i6"></font>
+           <b>Re-Password :</b>&nbsp&nbsp<input type="password" name="rpwd" placeholder="Re-Password" required>&nbsp;<font id="i5">
+<input type="Submit" value="Submit">
+          <input type="Reset" value="Reset"></form> 
+	   </div>
+ </body>
+</html>

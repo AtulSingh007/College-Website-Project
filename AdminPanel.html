@@ -1,0 +1,153 @@
+
+<html>
+ <head>
+    <style>
+		body {
+    font-family: 'Sonsie One';
+}
+                
+		.box{
+			/*border:1px solid black;*/
+			background-color:#222930;
+			height: 150px;
+			box-shadow:0px 0px 10px black;
+		}
+          img
+        {
+			margin-top: 15px;
+            background-color:#222930;
+            width:350px;;
+            height:125px;
+			margin-left: 475px;
+        }
+        
+		.line hr{
+            
+            margin-top:-5px;
+            /*width:1331px;*/
+            border-radius:0px;
+            height:9px;
+            margin-left:0px;
+            background-color:#4EB1BA;
+			box-shadow:0px 0px 10px black;
+			border: 1px solid #4EB1BE;
+            
+        }
+		
+		.maine_box
+		{
+			margin-top:-8px;
+			height:40px;
+			background-color:#222930;
+			width:100%;
+		}
+		
+		h1
+		{
+			color:slategrey;
+			
+			margin:0px;
+			
+			margin-left: 20px;
+			padding-left:65px;
+            border-radius:18px;
+			cursor: pointer;
+			font-weight:bold;
+			font-family:"Sonsie One";
+			 text-shadow: 2px 2px 5px black;
+		}
+		
+		
+		.menuBar
+		{
+			
+			margin-top:35px;
+		}
+		
+		.button
+		{
+			border:none;
+			width:180px;
+			height:50px;
+			margin-left: 16px;
+			font-size:20px;
+			margin-top: 7px;
+			color:white;
+			background-color:#4EB1BE;	
+			display: inline-block;
+			text-align: center;
+			padding: 10px;
+			transition: all 0.5s;
+			cursor: pointer;
+			border-radius:4px;
+		}
+		
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:focus span {
+  padding-right: 25px;
+}
+
+.button:focus span:after {
+  opacity: 1;
+  right: 0;
+}
+		
+		
+	 </style>
+ </head>
+	<link rel="stylesheet" href="CSSstyle/adminPanel.css">
+  <body>
+	  <div class="box">
+         <div class="logo-name">
+             <img src="imag/logo.png">
+	      </div>
+		 </div>
+	  <div class="line">
+          <hr/>
+        </div>
+	  <div class="maine_box">
+	  <h1>AMBRS</h1>
+	  </div>
+	  
+	  <div class="student_info_body">
+		   <div class="border1">
+               <!--<div class="hor_line">-->
+		  <div class="menuBar">
+		        <a href="home_adminPanel.html" target="adminPanal_home"><button class="button" ><span>Home </span></button></a>
+			  <a href="Student_adminPanel.html" target="adminPanal_home"><button class="button" ><span>Student </span></button></a>
+			  <a href="Faculty_adminPanel.html" target="adminPanal_home"><button class="button" ><span>Faculty </span></button></a>
+			  <a href="Announcement_adminPanel.html" target="adminPanal_home"><button class="button" ><span>Announcement </span></button></a>
+			  <a href="Insert_adminPanel.html" target="adminPanal_home"><button class="button" ><span>Insert Record </span></button></a>
+			  <a href="Delete_adminPanel.html" target="adminPanal_home"><button class="button" ><span>Delete Record </span></button></a>
+			  <a href="Delete_adminPanel.html" target="adminPanal_home"><button class="button" ><span>FeedBack</span></button></a>
+			  <a href="Delete_adminPanel.html" target="adminPanal_home"><button class="button" ><span>Complain</span></button></a>
+			  <a href="Index.html" ><button class="button" ><span>Sign Out </span></button></a>
+	      </div>
+			<!--</div>-->
+			 </div>   
+           	<div class="frame">
+           <iframe src="home_adminPanel.html" name="adminPanal_home">
+            </iframe>
+                  
+           </div>
+			  
+       </div>
+	  
+	  
+</body>
+</html>

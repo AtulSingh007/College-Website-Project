@@ -1,0 +1,6 @@
+<%@ session=true%>
+
+<%
+String uid=(String)session.getAttribute("mysession");
+
+%>

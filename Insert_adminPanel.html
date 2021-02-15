@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <style>
+						
+         .main_info_faculty
+            {
+			
+			background-color:#222930;
+            width:1048px;
+            height:594px;
+           box-shadow: 0px 0px 10px black;	
+				
+            }
+            
+			p{
+				/*border:1px solid white;*/
+				color:slategrey;
+				font-size:40px;
+				text-align:center;
+				padding-top:50px;
+				text-shadow:0px 0px 10px black;
+			}
+            
+			.radioButton
+			{
+				/*border:1px solid white;*/
+				width:300px;
+				height:50px;
+				color:white;
+				font-size:10px;
+				margin-left:380px;
+				margin-top:100px 
+				text-shadow: 0px 0px 10px black;
+			}
+		
+			  .StundentButton{
+				outline:none;
+				position: relative;
+				background-color: #4EBEB1;
+				border: none;
+				font-size: 18px;
+				color: white;
+				padding: 7px;
+				width: 150px;
+				text-align: center;
+				-webkit-transition-duration: 0.4s; /* Safari */
+				transition-duration: 0.4s;
+				text-decoration: none;
+				overflow: hidden;
+				cursor: pointer;
+				}
+			
+			.StundentButton:after {
+				content: "";
+				background: #f1f1f1;
+				display: block;
+				position: absolute;
+				padding-top: 300%;
+				padding-left: 350%;
+				margin-left: -20px !important;
+				margin-top: -120%;
+				opacity: 0;
+				transition: all 0.8s
+				}
+			
+				.StundentButton:active:after {
+				padding: 0;
+				margin: 0;
+				opacity: 1;
+				transition: 0s
+				}
+		
+			.facultyButton {
+				outline:none;
+				position: relative;
+				background-color: #4EBEB1;
+				border: none;
+				font-size: 18px;
+				color: white;
+				padding: 7px;
+				width: 150px;
+				text-align: center;
+				-webkit-transition-duration: 0.4s; /* Safari */
+				transition-duration: 0.4s;
+				text-decoration: none;
+				overflow: hidden;
+				cursor: pointer;
+				margin-left:200px;
+				margin-top:-35px;
+				}
+
+			.facultyButton:after {
+				content: "";
+				background: #f1f1f1;
+				display: block;
+				position: absolute;
+				padding-top: 300%;
+				padding-left: 350%;
+				margin-left: -20px !important;
+				margin-top: -120%;
+				opacity: 0;
+				transition: all 0.8s
+				
+				}
+
+			.facultyButton:active:after {
+				padding: 0;
+				margin: 0;
+				opacity: 1;
+				transition: 0s
+				}
+			
+	       </style>
+		<link rel="stylesheet" href="CSSstyle/adminPanel_iframe.css">
+    </head>
+ <body>
+	    <div class="main_info_faculty">
+			<div class="h1"><p>Insert Recods</p></div>
+			
+			<div class="radioButton">
+				<a href="Student_adminPanel_form_info.html" target="adminPanal_StudentForm"><button class="StundentButton">Student</button></a>			
+		<a href="Faculty_adminPanel_form_info.html" target="adminPanal_StudentForm"><button class="facultyButton">Faculty</button></a>
+  			
+			</div>
+			
+			<!--</div>-->  
+           	<div class="frame">
+           <iframe scrolling="no" src="StudentAdminPanal_form.html" name="adminPanal_StudentForm">
+            </iframe>
+                  
+           </div>
+	   </div>
+ </body>
+</html>

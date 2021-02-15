@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+  box-sizing: border-box;
+    background-color:#222930;
+}
+
+    
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}    .h
+    {
+		text-shadow:0px 0px 10px black;
+        width:300px;
+        height:80px;
+        border-radius:30px;
+        background-color:#222930;
+        border-bottom: 1px solid #4eb1ba;
+		border-bottom-width:thick;
+		border-bottom-left-radius: 28px;
+		border-bottom-right-radius: 32px;
+        overflow: hidden;
+    }
+    
+    .h img{
+        margin-top:-25px;
+        margin-left:-5px;
+        width:312px;
+        height:90px;
+        cursor:pointer;
+        padding:5px ;
+        
+    }
+    
+    img{
+        /*border: 1px solid black;*/
+        margin-left:10px;
+        margin-top: 10px;
+        width:230px;
+        height: 290px;
+        cursor: pointer;
+        }    
+
+
+    i img{
+        color:white;
+        margin-top: -100px;
+        margin-bottom:15px;
+        margin-left: 1100px;
+        width:40px;
+        height: 40px;
+    }
+	
+	h1{
+		margin-top:10px;
+		color:slategrey;
+		font-size:50px;
+		text-shadow:0px 0px 10px black; 
+	}
+	
+	.detail
+            {
+               
+                width:930px;
+                height:400px;
+                margin-left:215px;
+				color:white;
+            }
+
+		.complain-info input[type="text"]{
+				border:1px solid #4EB1BA;
+				width:200px;
+				height: 20px;
+				margin: auto;
+				margin-top: 2px;
+			}
+			
+			input[type="text"]
+			{
+				text-align:center;
+				padding-top:-12px;
+				padding:12px 20px;
+				margin-left: 20%;
+				display:block;
+				border:none;
+				border-bottom:1px solid black;
+				width:200px;
+				height: 20px;
+				background-color:#222930;
+				font-size:16px;
+				font-weight: bold;
+			}
+			
+			.FeedBack_topic input[type="text"]{
+				
+				width: 900px;
+    			height: 50px;
+				text-align: left;
+				margin-top: 15px;
+				margin-left: 15px;
+				padding: 12px 20px;
+				box-sizing: border-box;
+				border: 2px solid #ccc;
+				border-radius: 4px;
+				background-color: #f8f8f8;
+				font-size: 16px;
+				font-weight:bold;
+				box-shadow:3px 0px 10px black;
+				
+				
+			}
+			
+			.feedback_text{
+				/*border:1px solid white;*/
+				margin:auto;
+				margin-top:5px;
+				height:234px;
+				width:900px;
+				
+			}
+
+			textarea {
+    			width: 900px;
+    			height: 50px;
+				padding: 12px 20px;
+				box-sizing: border-box;
+				border: 2px solid #ccc;
+				border-radius: 4px;
+				background-color: #f8f8f8;
+				font-size: 16px;
+				font-weight:bold;
+				resize: none;
+				transition:width 0.4s ease-in-out;
+				transition:height 0.4s ease-in-out;
+				box-shadow:5px 5px 10px black;
+				transition: 1s;
+			}
+			
+			textarea:focus
+			{
+				width:900px;
+				height: 284px;
+				/*!important*/
+			}
+
+			
+			input[type="submit"]
+			{
+				border:1px solid #4EB1BA;
+				/*border:none;*/
+				width:100px;
+				height:20px;
+				font-weight:bold;
+				background-color:#222930;
+				margin-left:800px;
+				margin-top:70px;
+				cursor: pointer;
+				color:#4EB1BA;	
+			}
+			
+			input[type="submit"]:hover
+			{
+				box-shadow:3px 5px 10px black;
+				color:white;
+				border:1px solid white;
+			}
+	
+</style>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <center><div class="h"><h1>FeedBack</h1></div></center>
+    <i><a href="Student_info.html"><img src="icon/home_icon_white.png" onmouseover="this.src='icon/home_icon.png'" onmouseout="this.src='icon/home_icon_white.png'"></a></i>
+    
+<br>
+	 <div class="detail">
+			   <div class="FeedBack_topic">
+			        <input type="text" name="Feedback-topic_text"  placeholder="FeedBack Topic">
+			  </div>
+			  <div class="feedback_text">
+			  
+				  <textarea name="feedback-message" placeholder="Text Here..."></textarea>
+			  </div>
+			  
+			  <input type="submit" value="Submit">
+				  
+     </div>
+
+</body>
+</html>

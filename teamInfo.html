@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+  box-sizing: border-box;
+    background-color:#222930;
+}
+
+    
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+    .card1 {
+    box-shadow:0px 0px 10px black;
+     background-color:#33CC99;
+    }
+    .card2 {
+    box-shadow:0px 0px 10px black;
+    background-color:#CC99FF;
+    }
+    .card3 {
+    box-shadow:0px 0px 10px black;
+    background-color:#9999CC;
+    }
+    .card4 {
+    box-shadow:0px 0px 10px black;
+    background-color:#FFCC66;    
+    }
+    .card5 {
+    box-shadow:0px 0px 10px black;
+    background-color:#660000;    
+    }
+
+    .h
+    {
+        width:300px;
+        height:80px;
+        border-radius:30px;
+        background-color:#222930;
+        box-shadow:5px 5px 10px black;
+        overflow: hidden;
+    }
+    
+    .h img{
+        margin-top:-25px;
+        margin-left:-5px;
+        width:312px;
+        height:90px;
+        cursor:pointer;
+        padding:5px ;
+        
+    }
+    
+    img{
+        /*border: 1px solid black;*/
+        margin-left:10px;
+        margin-top: 10px;
+        width:230px;
+        height: 290px;
+        cursor: pointer;
+        }    
+    
+    B{
+        color:red;
+        font-size:50px;
+    }
+    
+    h2{
+        
+        text-align:center;
+    }
+    .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+        margin-top:-200px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+    
+    .card:hover .tooltiptext {
+    visibility: visible;
+}
+    
+    
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button1 {
+  border: none;
+  /*outline: 0;*/
+  display: inline-block;
+  padding: 8px;
+  color: white;
+    font-size: 15px;
+  background-color: #33CC99;
+    border: 1px solid lightgreen;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+    font-weight: bolder;
+}
+
+.button1:hover {
+  box-shadow:5px 5px 10px black;  
+  
+}
+    
+.button2 {
+  border: none;
+  /*outline: 0;*/
+  display: inline-block;
+  padding: 8px;
+  color: white;
+    font-size: 15px;
+  background-color: #CC99FF;
+    border: 1px solid lightpink;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+    font-weight: bolder;
+}
+
+.button2:hover {
+  box-shadow:5px 5px 10px black;  
+    }
+    
+.button3 {
+  border: none;
+  /*outline: 0;*/
+  display: inline-block;
+  padding: 8px;
+  color: white;
+    font-size: 15px;
+  background-color: #9999CC;
+    border: 1px solid #6699FF;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+    font-weight: bolder;
+}
+
+.button3:hover {
+  box-shadow:5px 5px 10px black;  
+  
+}    
+    
+    .button4 {
+  border: none;
+  /*outline: 0;*/
+  display: inline-block;
+  padding: 8px;
+  color: white;
+    font-size: 15px;
+  background-color: #FFCC66;
+    border: 1px solid #FFFF66;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+    font-weight: bolder;
+}
+
+.button4:hover {
+  box-shadow:5px 5px 10px black;  
+  
+}
+    
+    .button5 {
+  border: none;
+  /*outline: 0;*/
+  display: inline-block;
+  padding: 8px;
+  color: white;
+    font-size: 15px;
+  background-color: #660000;
+    border: 1px solid red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+    font-weight: bolder;
+}
+
+.button5:hover {
+  box-shadow:5px 5px 10px black;  
+  
+}
+    i img{
+        color:white;
+        margin-top: -100px;
+        margin-bottom:15px;
+        margin-left: 1100px;
+        width:40px;
+        height: 40px;
+    }
+</style>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <center><div class="h"><h1><img src="icon/AMBRS-LOGO(LONGER).png"></h1></div></center>
+    <i><a href="Index.html"><img src="icon/home_icon_white.png" onmouseover="this.src='icon/home_icon.png'" onmouseout="this.src='icon/home_icon_white.png'"></a></i>
+    
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card1">
+      <img src="AMBRS_img/akash.jpg" alt="Akash  Razz" >
+        <div class="container">
+        <h2><B>A</B>kash</h2>
+        <p class="title"></p>
+          <span class="tooltiptext">Tooltip text</span>
+        <!--<p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>-->
+        <p><button class="button1">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card2">
+      <img src="AMBRS_img/meenakshi.jpg" alt="Meenakshi Chauhan" >
+      <div class="container">
+        <h2><B>M</B>eenakshi</h2>
+        <p class="title"></p>
+          <span class="tooltiptext">Tooltip text</span>
+        <!--<p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>-->
+        <p><button class="button2">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card3">
+      <img src="AMBRS_img/bhuvi.jpg" alt="Bhuvneshwar  Rana"  >
+      <div class="container">
+        <h2><B>B</B>huvneshwar</h2>
+        <p class="title"></p>
+          <span class="tooltiptext">Tooltip text</span>
+        <!--<p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>-->
+        <p><button class="button3">Contact</button></p>
+      </div>
+    </div>
+  </div>
+     <div class="column">
+    <div class="card4">
+      <img src="AMBRS_img/Rashi%20(14).jpg" alt="Rashi Singh"  >
+      <div class="container">
+        <h2><B>R</B>ashi</h2>
+        <p class="title"></p>
+          <span class="tooltiptext">Tooltip text</span>
+        <!--<p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>-->
+        <p><button class="button4">Contact</button></p>
+      </div>
+    </div>
+  </div>
+     <div class="column">
+    <div class="card5">
+      <img src="AMBRS_img/Sarthak.jpg" alt="Sarthak"  >
+      <div class="container">
+        <h2><B>S</B>arthak</h2>
+        <p class="title">Website Designer</p>
+          <span class="tooltiptext">Tooltip text</span>
+        <!--<p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>-->
+        <p><button class="button5">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

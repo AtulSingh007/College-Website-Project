@@ -1,0 +1,32 @@
+<html>
+<body>
+<form name="f1" onSubmit="return valid();" action="AdminInsertStudent.jsp">    
+		  <i>Student Name :</i><br> <input type="text" placeholder="First Name" name="fname" required>
+       <input type="text"  placeholder="Last Name" name="lname" required>
+      <i>Gender :</i>  <input type="radio" name="gender" value="male" required> <i>Male</i> 
+		  <input type="radio" name="gender" value="male" required> <i>Female</i><br>        
+        <i>Father's Name :</i>
+        <br> <input type="text" placeholder="First Name" name="ffname" required>
+      <input type="text" placeholder="Last Name" name="flname" required><br><br>
+        
+      <i>D.O.B : </i> &nbsp<input type="date" value="month" name="date" required>
+      
+       <i>My Year:</i>&nbsp&nbsp<input type="text" placeholder="Year" name="year" required>
+
+          <i>Phone Number : </i><input type="text" name="phone" placeholder="Phone No." required><font id="i1"><br><br> 
+
+          <i>Branch : </i>    <select name="branch" required>
+           <option value="text" selected>-----Please Select-----</option>
+           <option value="CSE" >Computer Science & Engineering (CSE)</option>
+            <option value="IT">Information Technology (IT)</option>
+          </select>
+        
+          <i>Password :</i>&nbsp&nbsp<input type="password" name="pwd" placeholder="Password" required>&nbsp;<font id="i4">
+      
+          <i>Re-Password :</i>&nbsp&nbsp<input type="password" name="rpwd" placeholder="Re-Password" required>&nbsp;<font id="i5"><br><br>
+          <input type="Submit" value="Submit">
+  
+          <input type="Reset" value="Reset">
+</form> 
+</body>
+</html>

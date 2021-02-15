@@ -1,0 +1,256 @@
+<html>
+ <head>
+    <style>
+                
+        .{
+            
+         margin:0;
+         padding:0;
+        }
+        .box
+        {
+           width:100%;
+            margin:0;
+        }
+        header
+        {
+            
+            min-height:145px;
+        }
+        /*<!---Starting_logo-name--->*/
+        
+        .logo-name ul
+        {
+            list-style:none;
+            margin:0px;
+            padding:0px;
+        }
+        
+        .logo-name ul li
+        {
+        
+         width:666px;
+         height:40px;
+         float:left;
+        font-size:45px;
+        text-align:center;
+        line-height:120px;
+           
+        }
+        
+        .logo-name ul li a
+        {
+        text-decoration:none;         
+        display:block;   
+            
+        }
+          
+        .clear{
+            clear: both;
+        }
+        /*<!--End_logo-name-->*/
+
+        
+        .main
+        {
+            /*background: linear-gradient(to bottom right, #ffff99 0%, #ff9966 100%);*/
+            /*background-color:#034675;*/   /*hard blue color*/ 
+            background: linear-gradient(to bottom, #0000cc 0%, #0066ff 100%);   
+            min-height: 40px;
+            border:1px solid red;
+        }
+        
+         a
+        {
+         text-decoration: none;
+        }
+        
+        /*<!--Menu-->*/
+        
+         .menu ul
+        {
+        list-style:none;
+        margin:0px;
+        
+        }
+            
+        .menu ul li
+        {
+        background: linear-gradient(to bottom, #0000cc 0%, #0066ff 100%);
+        width:160px;
+        border:0px solid white;
+        height: 40px; 
+        line-height: 40px;
+        text-align:center;
+         float:left;  
+        font-size: 20px;
+        }
+        .menu ul li a
+        {
+         text-decoration:none;
+        color:black;
+        display:block;
+        }
+        
+        .menu ul li a:hover
+        {
+        background: linear-gradient(to top, #0000cc 0%, #0066ff 100%);                   
+        }
+            
+        
+        .menu ul li ul li
+        {
+        display: none;
+        }
+    
+        .menu ul li:hover ul li
+        {
+         display: block;             
+        }
+        
+        /*<!--End_menu-->*/
+        
+         footer
+        {
+          background-color:black; /*temp color*/
+/*        background-color:#034675;  use this color on web site*/
+        min-height:170px;
+        color:white;
+
+        }
+        
+        .down-menu1 ul
+        {
+            list-style:none;
+            margin-bottom:5px;
+            padding-bottom:5px;
+        }
+        
+        .down-menu1 ul
+        {
+            text-decoration: none;
+            text-align: center;
+            margin-top: 50px;
+          float:left;
+         width: 220px;
+          line-height: 30px;
+        }
+        
+        .down-menu1 ul li a
+        {
+         text-decoration:none;
+        color:white;
+        display:block;
+        }
+        
+        #img{
+            
+            border:1px solid white;
+            width: 900px;
+            height: 300px;
+          /*  margin-top: 100px;*/
+            margin:auto;
+        }
+        
+     </style>
+ </head>
+
+  <body>
+   <div class="box">
+    
+    <header>
+        <!-- Logo And Name-->
+        <div class="logo-name">
+        <ul>
+                <li><a href="#"><img src="n99.jpg" width="670x" height="145px"></a></li>
+                <li><a href="#">Neelkanth Group Of Institutions</a></li>
+            </ul> 
+            <div class="clear">
+            </div>
+        </div>    
+        <!-- End Logo And Name-->
+
+    </header>
+  
+       <!-- Starting MenuBar -->
+       <div class=main>
+           <div class="menu">
+            <ul>
+           <li><a href="Home.html">Home</a></li>
+            <li><a href="#">Register</a>
+                <ul>
+                 <li> <a href="student_reg.html">Student</a></li>
+                 <li> <a href="faculty_reg.html">Faculty</a></li>
+                </ul>
+           </li>
+             <li><a href="">Login</a>
+                 <ul>
+                 <li> <a href="Student_login.html">Student</a></li>
+                 <li> <a href="Faculty_login.html">Faculty</a></li>
+                 <li> <a href="Admin_login.html">Admin</a></li>
+                </ul>
+             </li>     
+           <li><a href="#">Course Detail</a>
+               <ul>
+                 <li> <a href="#">First Year</a></li>
+                 <li> <a href="#">Second Year</a></li>
+                 <li> <a href="#">Third Year</a></li>
+               </ul>
+           </li>           
+           <li><a href="#">Download</a></li>
+           <li><a href="#">Feedback</a></li>
+            <li><a href="#">About us</a></li>
+           <li><a href="#">Contact us</a></li>
+
+           
+       </ul>
+        
+       </div> 
+       </div>
+                     
+           <!--<div class="imag">
+          <img src="imag/s.jpg" id="img">
+       </div>
+       -->
+       
+       <!-- End MenuBar-->
+       
+    <footer>
+       
+        <div class="down-menu1">
+          <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About us</a></li>
+           <li><a href="#">Downloads</a></li>
+            </ul> 
+              
+            <ul>
+           <li><a href="#">Year</a></li>
+           <li><a href="#">Register</a></li>
+           <li><a href="#">Login</li>
+            </ul>
+           
+            <ul>
+           <li><a href="#">Contact us</a></li>
+           <li><a href="#">Feedback</a></li>
+           <li><a href="#">Links</li>
+            </ul>
+            
+            <ul>
+           <li><a href="#">Sitemap</a></li>
+            </ul>
+            
+            <ul>
+                <li><a href="#"><strong>Facebook</strong></a></li>
+           <li><a href="#">Twitter</a></li>
+           <li><a href="#">Google+</li>
+            </ul>
+              
+        </div>
+        
+        
+        
+    </footer>
+    </div>
+   </body>
+</html>

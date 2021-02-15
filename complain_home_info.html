@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <style>
+            
+         .border
+		{
+			width:960px;
+            height:517px;
+			margin-top:-10px;
+			margin-left:-8px;
+			padding: 5px 16px 5px;
+			 box-shadow:0px 0px 10px black;
+     background-color:#4EB1BA;
+			}
+			
+			.detail
+            {
+                border:2px solid #4EB1BA;
+                width:930px;
+                height:400px;
+                margin-left:12px;
+				color:white;
+            }
+			
+			.h
+            {
+				
+                margin-left:20px;
+                font-size: 40px;
+				 margin-top: 2px;
+				width: 390px;
+				height: 40px;
+				color:white;
+			
+			}
+			
+         .main_info_student
+            {
+             	background-color:#222930;
+            width:960px;
+            height:490px;
+            margin-left: 0px;
+            margin-top: 8px;
+			/*border: none;*/
+            }
+			
+            .main_info_student h1
+            {
+                margin-left:20px;
+                margin-top:2px;
+                font-size: 40px;
+            }
+			
+			
+			.complain-info input[type="text"]{
+				border:1px solid #4EB1BA;
+				width:200px;
+				height: 20px;
+				margin: auto;
+				margin-top: 2px;
+			}
+			
+			input[type="text"]
+			{
+				text-align:center;
+				padding-top:-12px;
+				padding:12px 20px;
+				margin-left: 20%;
+				display:block;
+				border:none;
+				border-bottom:1px solid black;
+				width:200px;
+				height: 20px;
+				background-color:#222930;
+				font-size:16px;
+				font-weight: bold;
+			}
+			
+			.complain_topic input[type="text"]{
+				
+				width: 900px;
+    			height: 50px;
+				text-align: left;
+				margin-top: 15px;
+				margin-left: 15px;
+				padding: 12px 20px;
+				box-sizing: border-box;
+				border: 2px solid #ccc;
+				border-radius: 4px;
+				background-color: #f8f8f8;
+				font-size: 16px;
+				font-weight:bold;
+				box-shadow:3px 0px 10px black;
+				
+				
+			}
+			
+			.complain_text{
+				/*border:1px solid white;*/
+				margin:auto;
+				margin-top:5px;
+				height:234px;
+				width:900px;
+				
+			}
+
+			textarea {
+    			width: 900px;
+    			height: 50px;
+				padding: 12px 20px;
+				box-sizing: border-box;
+				border: 2px solid #ccc;
+				border-radius: 4px;
+				background-color: #f8f8f8;
+				font-size: 16px;
+				font-weight:bold;
+				resize: none;
+				transition:width 0.4s ease-in-out;
+				transition:height 0.4s ease-in-out;
+				box-shadow:5px 5px 10px black;
+				transition: 1s;
+			}
+			
+			textarea:focus
+			{
+				width:900px;
+				height: 234px;
+				/*!important*/
+			}
+
+			
+			input[type="submit"]
+			{
+				border:1px solid #4EB1BA;
+				/*border:none;*/
+				width:100px;
+				height:20px;
+				font-weight:bold;
+				background-color:#222930;
+				margin-left:800px;
+				margin-top:20px;
+				
+				color:#4EB1BA;	
+			}
+			
+			input[type="submit"]:hover
+			{
+				box-shadow:3px 5px 10px black;
+				color:white;
+				border:1px solid white;
+			}
+			
+        </style>
+    </head>
+ <body>
+	 <div class="border">
+   <div class="main_info_student">
+       <h1 class="h">Complain</h1>
+	      <div class="detail">
+			  
+       			<div class="complain-info">
+					<input type="text" name="Complain-id" placeholder="Complain ID" readonly>
+			  </div>
+			  <div class="complain_topic">
+			        <input type="text" name="Complain-topic_text"  placeholder="Complain Topic">
+			  </div>
+			  <div class="complain_text">
+			  
+				  <textarea name="complain-message" placeholder="Text Here..."></textarea>
+			  </div>
+			  
+			  <input type="submit" value="Submit">
+				  
+     </div>
+	 </div>
+		 </div>
+ </body>
+</html>

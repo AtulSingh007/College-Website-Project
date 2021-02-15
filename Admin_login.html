@@ -1,0 +1,161 @@
+<html>
+<head>
+<style type="text/css">
+    
+    
+   
+   body
+     {
+  background-image:url('imag/final-desing.jpg');
+  background-size:cover;
+     }
+ .a
+  {
+    width:300px;
+    height:250px;
+    background-color:rgba(0,0,0,0.5);
+    margin:0 auto;
+    margin-top:150px;
+    padding-top:20px;
+    padding-left:50px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -moz-boder-radius:5px;
+    color:white;
+    font-weight:border;
+    box-shadow:inset -3px -3px rgba(0,0,0,0.5);
+    font-size:17px;
+  }
+ .a input[type="text"]
+  {
+   width:200px;
+   height:30px;
+   border:0;
+   border-radius:5px;
+   padding-left:5px;
+   -webkit-border-radius:5px;
+   -o-border-radius:5px;
+   -moz-boder-radius:5px;
+   
+  }
+  .a input[type="password"]
+  {
+   width:200px;
+   height:30px;
+   border:0;
+   border-radius:5px;
+   padding-left:5px;
+   -webkit-border-radius:5px;
+   -o-border-radius:5px;
+   -moz-boder-radius:5px;
+  }
+ .a input[type="submit"]
+  {
+    width:100px;
+    height:30px;
+    border-radius:5px;
+   -webkit-border-radius:5px;
+   -o-border-radius:5px;
+   -moz-boder-radius:5px;
+    background-color:#43a3ac;
+    font-weight:bolder;
+	 border:none; 
+  }
+    .a input[type="submit"]:hover{
+        
+        background-color:#347f86;
+    }
+   
+/*  <!--forget password-->*/
+    
+    *{
+        margin-top:0px;
+        padding:0px;
+    }
+            
+    .icon ul li ul li a{
+        
+    text-decoration: none;
+     color:white;
+            
+    }
+    
+    .icon a:hover{
+        
+        color:black;
+        text-align: center;
+        padding-left: 15px;
+        
+    }
+     .icon ul
+            {
+                list-style:none;
+                font-size:15px;
+                
+            }
+     
+       .icon ul li
+            {
+                
+                float:left;
+                width:130px;
+                height:20px;
+                line-height:20px;
+                text-align: left;
+                color:white;
+            }
+          
+     .icon ul li:hover
+            {
+                color: black;    
+                
+            }
+    
+     .icon ul ul{
+                
+                display:none;
+            }
+       .icon ul li:hover ul{
+                
+                display: block;
+            }
+       .icon ul li ul li
+            {
+                
+            text-align:left;
+            }
+    
+    
+    
+</style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+<div class="a">
+<h2>Admin Login</h2>
+   <form action="Admin_Login.jsp">
+     <input type="text" placeholder="Admin ID" name="id"><br><br>
+     <input type="password" placeholder="Password" name="pwd"><br><br>
+     <input type="Submit" value="Login">
+       
+       <div class="icon">
+         <ul>
+           <li><i style="font-size:15px" class="fa">&#xf06a;</i>&nbsp;Password Forget</li>
+           <li><i style="font-size:17px" class="fa">&#xf118;</i>&nbsp;Oops,Sorry....
+                <ul>
+                    <li><a href="Faculty_login.html">I'm Faculty</a></li>
+                    <li><a href="Student_login.html">I'm Student</a></li>
+               </ul>
+             
+             </li>
+         </ul>
+     </div>
+   </form> 
+</div>
+    
+</body>
+</html>
